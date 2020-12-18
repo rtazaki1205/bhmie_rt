@@ -22,6 +22,9 @@
 !  Test case 18 :       1.0e1   1.0e1   1.0e2
 !  Test case 19 :       1.0e1   1.0e1   1.0e4
 !
+! The benchmark results are contained in 'MIEV0_benchmark.out', 
+! which was created by the Wiscombe's MIEV0.f code.
+!
 !----------------------------------------------------------------------
 program call_bhmiert
 use types
