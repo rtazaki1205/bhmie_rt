@@ -1,5 +1,5 @@
 !----------------------------------------------------------------------
-!  Call BHMIE_RT
+!  calling routine of bhmie_rt.f90
 !
 !  This calling program performes some test cases used in MIEV0.f 
 !  developed by W. Wiscombe. I consider here the test case from #6 to #19.
@@ -30,18 +30,21 @@ program call_bhmiert
 use types
 implicit none
 integer::i,j
-integer,parameter::nang=181
-real(kind=dp)::qe,qs,qa,qb,gs,x
-real(kind=dp)::dang,ncoefi,kcoefi
+real(kind=dp)     :: x              ! size parameter
+real(kind=dp)     :: ncoefi         ! Real part of the refractive index
+real(kind=dp)     :: kcoefi         ! Imag part of the refractive index
+complex(kind=dp)  :: refrel         ! complex refractive index
+real(kind=dp)     :: qe,qs,qb,gs    ! Qext, Qsca, Qback, <cos>
+integer,parameter :: nang=181       ! number of scattering angles
+real(kind=dp)     :: dang           ! angle mesh width
 real(kind=dp),dimension(2*nang-1)::ANG,S11,S12,S33,S34
-complex(kind=dp)::refrel
 complex(kind=dp),dimension(2*nang-1)::S1,S2
 
 dang=90.0_dp/dble(nang-1)
 do j=1,2*nang-1
         ang(j)=dang*dble(j-1)
 enddo
-open(10,file="wiscombe_benchmark.out",status="unknown")
+open(10,file="wiscombe_benchmark.dat",status="unknown")
 do i=6,19
         call wiscombe_testcases(i,ncoefi,kcoefi,x)
         refrel = cmplx(ncoefi,kcoefi)
