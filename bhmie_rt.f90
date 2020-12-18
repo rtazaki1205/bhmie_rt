@@ -4,9 +4,11 @@
 ! This is a modified version of the BHMIE code written by Bruce Draine.
 !  https://www.astro.princeton.edu/~draine/scattering.html
 !
-! R.T. modified at following points:
+! R.T. modified following points.
+!- Big static arrays are now defined as dynamic array.
 !- Implemented the Lentz's continued fraction method to estimate
-!  the logarithmic derivative, which is safe for very large grains.
+!  the logarithmic derivative of Riccati Bessel function, 
+!  which is safe for very large grains.
 !- Implemented adjustable real and complex precision
 !- Slightly modified xstop to match the Wiscombe (1980)'s criterion.
 !
@@ -85,9 +87,8 @@ enddo
 ! 2. The Lentz's continued fraction method
 !    Reference: W. J. Lentz, Appl. Opt. 15. 668. (1976)
 !----------------------------------------------------------------------
-! Lentz's continued fraction method
-! Finding initial value of the logarithmic 
-! derivative "d" at order of n=nmx
+! Finding initial value of the logarithmic derivative "d" at 
+! the starting order of downward recurrence (n=nmx).
 !----------------------------------------------------------------------
 nmx = nint(max(xstop,ymod)) + 15
 allocate(d(1:nmx),ajy(1:nmx))
