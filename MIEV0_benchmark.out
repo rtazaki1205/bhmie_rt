@@ -1,5 +1,5 @@
 #  MIEV0 Test Case  #  6
-#  Size parameter   =        1.01000
+#  Size parameter   =    1.01000E-01
 #  Refractive index =   0.750    0.00000E+00
 #  Qext             =    8.03275E-06
 #  Qsca             =    8.03275E-06
@@ -367,7 +367,7 @@
      1.80000E+02    3.06128E-08   -0.00000E+00
 
 #  MIEV0 Test Case  #  7
-#  Size parameter   =      100.00000
+#  Size parameter   =    1.00000E+01
 #  Refractive index =   0.750    0.00000E+00
 #  Qext             =    2.23226E+00
 #  Qsca             =    2.23226E+00
@@ -735,7 +735,7 @@
      1.80000E+02    1.16461E+00   -0.00000E+00
 
 #  MIEV0 Test Case  #  8
-#  Size parameter   =    10000.00000
+#  Size parameter   =    1.00000E+03
 #  Refractive index =   0.750    0.00000E+00
 #  Qext             =    1.99791E+00
 #  Qsca             =    1.99791E+00
@@ -1103,8 +1103,8 @@
      1.80000E+02    2.34788E+05   -0.00000E+00
 
 #  MIEV0 Test Case  #  9
-#  Size parameter   =       10.00000
-#  Refractive index =   1.330   -0.10000E-04
+#  Size parameter   =    1.00000E+00
+#  Refractive index =   1.330   -1.00000E-05
 #  Qext             =    9.39524E-02
 #  Qsca             =    9.39234E-02
 #      ang (deg)            S11      -S12/S11 
@@ -1471,8 +1471,8 @@
      1.80000E+02    2.11561E-02   -0.00000E+00
 
 #  MIEV0 Test Case  # 10
-#  Size parameter   =     1000.00000
-#  Refractive index =   1.330   -0.10000E-04
+#  Size parameter   =    1.00000E+02
+#  Refractive index =   1.330   -1.00000E-05
 #  Qext             =    2.10132E+00
 #  Qsca             =    2.09659E+00
 #      ang (deg)            S11      -S12/S11 
@@ -1839,8 +1839,8 @@
      1.80000E+02    5.36506E+03   -0.00000E+00
 
 #  MIEV0 Test Case  # 11
-#  Size parameter   =   100000.00000
-#  Refractive index =   1.330   -0.10000E-04
+#  Size parameter   =    1.00000E+04
+#  Refractive index =   1.330   -1.00000E-05
 #  Qext             =    2.00409E+00
 #  Qsca             =    1.72386E+00
 #      ang (deg)            S11      -S12/S11 
@@ -2207,8 +2207,8 @@
      1.80000E+02    1.39396E+06   -2.02918E-01
 
 #  MIEV0 Test Case  # 12
-#  Size parameter   =        0.55000
-#  Refractive index =   1.500   -0.10000E+01
+#  Size parameter   =    5.50000E-02
+#  Refractive index =   1.500   -1.00000E+00
 #  Qext             =    1.01491E-01
 #  Qsca             =    1.13169E-05
 #      ang (deg)            S11      -S12/S11 
@@ -2575,8 +2575,8 @@
      1.80000E+02    1.28222E-08   -0.00000E+00
 
 #  MIEV0 Test Case  # 13
-#  Size parameter   =        0.56000
-#  Refractive index =   1.500   -0.10000E+01
+#  Size parameter   =    5.60000E-02
+#  Refractive index =   1.500   -1.00000E+00
 #  Qext             =    1.03340E-01
 #  Qsca             =    1.21640E-05
 #      ang (deg)            S11      -S12/S11 
@@ -2943,8 +2943,8 @@
      1.80000E+02    1.42860E-08   -0.00000E+00
 
 #  MIEV0 Test Case  # 14
-#  Size parameter   =       10.00000
-#  Refractive index =   1.500   -0.10000E+01
+#  Size parameter   =    1.00000E+00
+#  Refractive index =   1.500   -1.00000E+00
 #  Qext             =    2.33632E+00
 #  Qsca             =    6.63454E-01
 #      ang (deg)            S11      -S12/S11 
@@ -3311,8 +3311,8 @@
      1.80000E+02    1.43251E-01   -0.00000E+00
 
 #  MIEV0 Test Case  # 15
-#  Size parameter   =     1000.00000
-#  Refractive index =   1.500   -0.10000E+01
+#  Size parameter   =    1.00000E+02
+#  Refractive index =   1.500   -1.00000E+00
 #  Qext             =    2.09750E+00
 #  Qsca             =    1.28370E+00
 #      ang (deg)            S11      -S12/S11 
@@ -3679,8 +3679,8 @@
      1.80000E+02    4.31053E+02   -0.00000E+00
 
 #  MIEV0 Test Case  # 16
-#  Size parameter   =   100000.00000
-#  Refractive index =   1.500   -0.10000E+01
+#  Size parameter   =    1.00000E+04
+#  Refractive index =   1.500   -1.00000E+00
 #  Qext             =    2.00437E+00
 #  Qsca             =    1.23657E+00
 #      ang (deg)            S11      -S12/S11 
@@ -4047,8 +4047,8 @@
      1.80000E+02    4.30879E+06    5.34141E-04
 
 #  MIEV0 Test Case  # 17
-#  Size parameter   =       10.00000
-#  Refractive index =  10.000   -0.10000E+02
+#  Size parameter   =    1.00000E+00
+#  Refractive index =  10.000   -1.00000E+01
 #  Qext             =    2.53299E+00
 #  Qsca             =    2.04940E+00
 #      ang (deg)            S11      -S12/S11 
@@ -4415,8 +4415,8 @@
      1.80000E+02    8.27249E-01   -0.00000E+00
 
 #  MIEV0 Test Case  # 18
-#  Size parameter   =     1000.00000
-#  Refractive index =  10.000   -0.10000E+02
+#  Size parameter   =    1.00000E+02
+#  Refractive index =  10.000   -1.00000E+01
 #  Qext             =    2.07112E+00
 #  Qsca             =    1.83679E+00
 #      ang (deg)            S11      -S12/S11 
@@ -4783,8 +4783,8 @@
      1.80000E+02    2.05059E+03   -0.00000E+00
 
 #  MIEV0 Test Case  # 19
-#  Size parameter   =   100000.00000
-#  Refractive index =  10.000   -0.10000E+02
+#  Size parameter   =    1.00000E+04
+#  Refractive index =  10.000   -1.00000E+01
 #  Qext             =    2.00591E+00
 #  Qsca             =    1.79539E+00
 #      ang (deg)            S11      -S12/S11 
