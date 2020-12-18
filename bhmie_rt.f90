@@ -5,7 +5,7 @@
 !  https://www.astro.princeton.edu/~draine/scattering.html
 !
 ! R.T. modified following points.
-!- Big static arrays are now defined as dynamic array.
+!- A big static array is now defined as a dynamic array.
 !- Implemented the Lentz's continued fraction method to estimate
 !  the logarithmic derivative of Riccati Bessel function, 
 !  which is safe for very large grains.
