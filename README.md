@@ -2,7 +2,7 @@
 
 This package provides a light scattering solution of a homogeneous sphere by Lorenz-Mie theory.
 This code is based on BHMIE ([Bohren & Huffman 1983](https://ui.adsabs.harvard.edu/abs/1983asls.book.....B)) 
-implemented by B. T. Draine (https://www.astro.princeton.edu/~draine/scattering.html).
+implemented by [B. T. Draine](https://www.astro.princeton.edu/~draine/scattering.html).
 However, this code adopts the continued fraction method to find the logarithmic 
 derivative ([Lentz et al. 1976](https://ui.adsabs.harvard.edu/abs/1976ApOpt..15..668L)) unlike the standard BHMIE.
 
